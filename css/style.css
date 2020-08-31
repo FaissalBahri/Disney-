@@ -1,0 +1,306 @@
+@font-face{
+    font-family: 'Avenir-Roman-12';
+    src: url('../fonts/Avenir-Roman-12.woff')  format('woff');
+}
+
+
+
+body{
+    background-color: #040714;
+    background-image: url(../img/background-hero_desktop.jpg);
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: top center;
+    height: 1200px;
+    font-family: 'Avenir-Roman-12';
+}
+            /* <!-- HEADER -->  */
+
+header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 1px;
+    height: 80px;
+ 
+}
+
+
+nav{
+    position: fixed;
+    margin: 1%;
+}
+
+/* css du bouton "s'identifier" */
+
+.but-menu{
+ padding: 10px 20px;
+ text-decoration: none;
+ cursor: pointer;
+ text-transform: uppercase;
+ background-color: rgba(0, 0, 0, 0.575);
+ color: whitesmoke;
+ border-radius: 4px;
+ border:white solid 1px;
+ -webkit-border-radius: 4px;
+ -moz-border-radius: 4px;
+ -ms-border-radius: 4px;
+ -o-border-radius: 4px;
+}
+
+.but-menu:hover {
+    background-color: white;
+    color: #040714;
+}
+            /* <!-- FIN HEADER --> */
+
+
+
+
+            /* <!-- MAIN --> */
+#conteneur{
+    width: 100%;
+    font-size: 1.5rem;
+}
+
+
+#hero{
+    display:block;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-self: center;
+    color: aliceblue;
+    width: 90%;
+    height: 500px;
+    margin: auto;
+}
+
+#hero-title{
+    margin-top: 15px;
+}
+/* logo disney */
+#hero img{
+    width: 170px;
+}
+
+.information{
+    display: flex;
+}
+
+.information h3{
+height: 15px;
+}
+
+.font-info{
+    font-size:17px ;
+    color: #f9f9f9;
+    opacity: .7;
+}
+
+
+.font-info-g{
+    color: #f9f9f9;
+    opacity: .7;
+    display: inline;
+    font-size: 18px;
+}
+
+.font-info-d{
+    color: #f9f9f9;
+    opacity: .7;
+    display: inline;
+    font-size: 18px;
+}
+
+.info{
+    display:flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+
+
+
+ .button-info{
+    background-color: #0483ee;
+    cursor: pointer;
+    letter-spacing: 2px;
+    border-radius: 4px;
+    border: black solid 1px;
+    padding: 18px;
+    color: #f9f9f9;
+    font-size: 17px ;
+    text-transform: uppercase;
+    margin-top: 24px;
+ }
+
+ #bot-info{
+    margin-top: 2%;
+    width: 50%;
+    color: #f9f9f9;
+    opacity: .7;
+    font-size: 14px;
+ }
+
+ #franchise-img{
+     width: 45%;
+     margin-top: 70px;
+ }
+
+ #arrow-rate{
+     width: 25px;  
+ }
+
+ #end-page-1 {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    justify-content: space-between;
+    align-items: flex-end;
+ }
+
+
+ /* Page 2 */
+
+ #hero-2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 5%;
+
+ }
+
+ .hero-2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 5%;
+
+ }
+
+ 
+ .couteneur-image{
+    width: 100%;
+    display: block;
+ }
+
+ .img-responsive{
+    max-width : 100%;
+    display: block;
+ }
+
+
+.text{
+    margin: 35px;
+    width: 50%;
+    color: #f9f9f9;
+    font-size: 30px;
+
+} 
+
+
+
+/* Page 3 & 5 */
+
+.hero-3{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 5%;
+}
+
+/* Section qui correspond aux different device du site */
+
+#section-device{
+    color:white;
+    font-size: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+#section-device h2{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+
+.conteneur-device{
+    display: flex;
+    flex-direction: column;
+}
+
+.conteneur-device h4{
+    display: flex;
+    justify-content: center;
+}
+
+
+.groupe-device{
+    width: 100%;
+    display: inline-flex; 
+    justify-content: space-between;
+    margin: 5%;
+}
+.groupe-device img{
+    display: inline-flex;
+    width: 100%;
+}
+
+.liste-device{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    list-style: none;
+    font-size: 15px;
+    color: #f9f9f9;
+    opacity: .7;
+}
+    /* <!-- FIN MAIN --> */     
+
+    /* Footer */
+
+    #footer-logo{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    #footer-logo img{
+        width: 7%
+    }
+
+    #nav-footer{
+        width: 100%;
+        display: flex;
+
+    }
+
+    #ul-footer{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        list-style: none;
+        font-size: 10px;
+        color: #f9f9f9;
+
+    }
+
+    #ul-footer li{
+        width: 130px;
+        padding: 1%;
+    }
+
+    #copyright{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        color: #f9f9f9;
+        font-size: 13px;
+    }

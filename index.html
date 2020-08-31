@@ -1,12 +1,252 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/index.css">
-    <title> Disney+ | La destination des studios Disney, Marvel, Pixar, Star Wars et National Geographic. </title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Insertion des fichiers CSS -->
+  <link rel="stylesheet" href="./css/normalize.css">
+  <link rel="stylesheet" href="./css/style.css">
+
+  <link rel="stylesheet" href="./css/medias-queries-mobile.css">
+  <!-- Titre de notre site sur l'onglet de notre navigateur -->
+  <title> Disney+ | La destination des studios Disney, Marvel, Pixar, Star Wars et National Geographic. </title>
 </head>
+
 <body>
-    
+
+  <!-- HEADER -->
+
+  <header>
+    <nav>
+      <input class="but-menu" type="submit" value="S'Identifier">
+    </nav>
+  </header>
+
+  <!-- FIN HEADER -->
+
+
+  <!-- MAIN -->
+  <main>
+
+    <div id="conteneur">
+
+      <div id="hero">
+        <img src="./img/logo-nopad.svg" alt="">
+        <h1 id="hero-title">5 mondes. 1 destination. </h1>
+
+        <div class="information">
+
+          <div class="info">
+            <h3>6,99 €
+              <span class="font-info"> par mois </span>
+            </h3>
+
+            <p class="font-info-g">Sans engagement.*Voir conditions.**</p>
+
+            <div>
+              <input class="button-info" type="submit" value="Regardez Maintenant">
+            </div>
+
+          </div>
+
+          <!-- Ligne Qui sépare les 2 div en version mobile -->
+          <div id="conteneur-ligne">
+            <div id="ligne"> </div>
+          </div>
+          <!-- Fin de la Ligne Qui sépare les 2 div en version mobile -->
+
+          <div class="info">
+
+            <h3>69,99 €
+              <span class="font-info"> pour un an </span>
+            </h3>
+
+            <p class="font-info-d"> Économisez plus de 15 %. Voir conditions.** </p>
+
+            <div>
+              <input class="button-info" type="submit" value="Économiser sur 12 mois">
+            </div>
+
+          </div>
+
+        </div>
+
+        <div id="bot-info">
+          <p> *Résiliation effective à la fin de la période de facturation en cours. **Comparatif entre 12 mois
+            d'abonnement mensuel et l'abonnement annuel.</p>
+        </div>
+
+      </div>
+
+      <div id="end-page-1">
+        <img id="franchise-img" src="./img/franchise-logos.png" alt="logos-franchise-disney">
+
+        <a href="#hero-2"> <img id="arrow-rate" src="./img/arrow-rate.png" alt="Fleche direction "> </a>
+      </div>
+
+    </div>
+
+    <!-- page 2  -->
+
+      <div id="hero-2"> 
+
+        <div class="conteneur-image"> 
+          <img class=img-responsive src="./img/DynamicContentTile.png" alt="Cards de plusieurs films">
+        </div>
+
+        <div class="text">
+          <h3> Du divertissement en continu</h3>
+          <p class="font-info-d">
+            Disney+ réunit Disney, Pixar, Marvel, Star Wars et National Geographic dans une destination. Des grands succès aux inoubliables classiques sans oublier les séries, émissions et films exclusifs Disney+ Originals, il y en a pour tous les goûts 
+          </p>
+        </div>
+
+      </div>
+
+    <!-- Page 3  -->
+
+      <div class="hero-3">
+
+        <div class="text">
+          <h3> Regardez où et quand vous le voulez</h3>
+          <p class="font-info-d">
+            Profitez de Disney+ sur 4 écrans en simultané, en mobilité sur votre téléphone et tablette ou à la maison sur votre TV ; le tout en ultra haute définition sur une sélection de contenus.
+          </p>
+        </div>
+
+        <div class="conteneur-image"> 
+          <img class=img-responsive src="./img/side_align_dev.jpg" alt="Différents types d'écran">
+        </div>
+
+
+      </div>
+
+
+      <!-- Page 4 -->
+
+      <div class="hero-2">
+
+        <div class="conteneur-image"> 
+          <img class=img-responsive src="./img/originals_imagery_June.jpg" alt="Différents films">
+        </div>
+
+        <div class="text">
+          <h3> De nouveaux Disney+ Originals tous les mois</h3>
+          <p class="font-info-d">
+            Des films, des séries et des documentaires créés par les artistes des studios Disney, Pixar, Marvel, Star Wars et National Geographic, le tout exclusivement sur Disney+.
+          </p>
+        </div>
+
+      </div>
+
+      <!-- Page 5 -->
+
+      <div class="hero-3">
+
+        <div class="text">
+          <h3> Téléchargez vos films et séries</h3>
+          <p class="font-info-d">
+            Téléchargez ce que vous voulez sur 10 appareils mobiles distincts pour le regarder quand vous le souhaitez, même dans les endroits où il n'y a pas de Wi-Fi.
+          </p>
+        </div>
+
+        <div class="conteneur-image"> 
+          <img class=img-responsive src="./img/side_align_avatar.jpg" alt="Personnage Avatar">
+        </div>
+
+      </div>
+
+
+      <!-- Section qui correspond aux different device du site  -->
+
+        <section id="section-device">
+            <h2>Accessible sur vos appareils préférés</h2>
+            
+            <div class="groupe-device">
+
+              <div class="conteneur-device"> 
+                <img src="./img/device/device-group-tv.png" alt="Télévisions">
+                <h4>Télévisions</h4>
+
+                <ul class="liste-device">
+                  <li>Amazon Fire TV</li>
+                  <li>Appareils Android TV</li>
+                  <li>AppleTV</li>
+                  <li>Chromecast</li>
+                  <li>TV LG</li>
+                  <li>Roku</li>
+                  <li>Samsung</li>
+                </ul>
+
+              </div>
+  
+              <div class="conteneur-device"> 
+                <img src="./img/device/device-group-computer.png" alt="Ordinateurs">
+                <h4>Ordinateurs</h4>
+
+                <ul class="liste-device">
+                  <li>Chrome OS</li>
+                  <li>MacOS</li>
+                  <li>PC Windows</li>
+                </ul>
+              </div>
+  
+              <div class="conteneur-device"> 
+                <img src="./img/device/device-group-mobile-tablet.png" alt="Mobiles et tablettes">
+                <h4>Mobiles et tablettes</h4>
+                <ul class="liste-device">
+                  <li>Tablettes Amazon Fire</li>
+                  <li>Mobiles et tablettes Android</li>
+                  <li>iPhone & iPad</li>
+                </ul>
+              </div>
+  
+              <div class="conteneur-device"> 
+                <img src="./img/device/device-group-game-consoles.png" alt="Consoles de jeux">
+                <h4>Consoles de jeux</h4>
+                <ul class="liste-device">
+                  <li>PS4</li>
+                  <li>Xbox One</li>
+                </ul>
+              </div>
+
+            </div>
+        </section>
+  </main>
+  
+  <!-- FIN DU MAIN -->
+
+        <!-- Footer -->
+
+        <footer>
+
+          <div id="footer-logo">
+            <img src="./img/logo-nopad.svg" alt="logo">
+          </div>
+
+          <div id="nav-footer">
+            <ul id="ul-footer">
+                <li> Francais </li>
+                <li> Conditions générales d'abonnement</li>
+                <li>Règles de Respect de la Vie Privée</li>
+                <li>Droits Données dans l'UE et au R-U</li>
+                <li>Modalités relatives aux cookies</li>
+                <li>Publicités ciblées par centres d'intérêt</li>
+                <li>Appareils compatibles</li>
+                <li>Aide</li>
+                <li>Gérer vos préférences</li>
+                <li>À propos de Disney+</li>
+            </ul>
+          </div>
+
+          <div id="copyright">
+            <p> © Disney. Tous droits réservés.</p>
+          </div>
+
+        </footer>
+
+
 </body>
+
 </html>
