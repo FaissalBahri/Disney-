@@ -13,16 +13,17 @@ window.onscroll = function () {
 
     if(document.documentElement.scrollTop > 590){
 
+         //Je cible les differents id du header pour modifier le css 
+
         document.getElementById("nav-menu").style.background = "#090b13";
-        document.getElementById("nav-logo").style.opacity="1"
-        document.getElementById("but-menu-nav2").style.opacity="1"
+        document.getElementById("nav-logo").style.display="flex"
+        document.getElementById("but-menu-nav2").style.display="flex"
         document.getElementById("div-button-nav").style.width='84%'
     }
     else{
-        // document.getElementById("nav-menu").style.background = "";
-        document.getElementById("nav-logo").style.opacity="0"
-        document.getElementById("but-menu-nav2").style.opacity="0"
-        document.getElementById("div-button-nav").style.width='84%'
+        document.getElementById("nav-logo").style.display="none"
+        document.getElementById("but-menu-nav2").style.display="none"
+        document.getElementById("div-button-nav").style.width='93%'
         document.getElementById("nav-menu").style.background = 'rgba(0, 0, 0, 0)'
     }
 
