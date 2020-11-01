@@ -2,8 +2,8 @@
 
 # Installer le projet:
 
-git clone https://github.com/FaissalBahri/
+git clone https://github.com/FaissalBahri/Disney-.git
 
-cd Humanity
+cd Disney-
 
 Ouvrir le fichier index.html
