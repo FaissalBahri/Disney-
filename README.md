@@ -1,4 +1,4 @@
-# Disney
+# My Disney+ : Réaliser une interface utilisateur web statique et adaptable 
 
 # Installer le projet:
 
